@@ -1,0 +1,13 @@
+1. npm install -g typescript // this will install typescript globally in the folder.
+2. In bash check for tsc --v
+3. The index.ts file never execute by using node index.ts 
+4. First we need to compile the ts file to 'js' file and the index.js file will be created. 
+5. tsc will compile all js file in the folder. tsc index.js will compile only index.ts file.
+6. To automate the compilation and execution. npm install -g ts-node , create tsconfig file==>
+    tsc --init.
+7. In tsconfig.json file we can uncomment noEmmit for not compiling file if there is issue.
+8. Now we can run ts-node index.ts which will execute the index.ts file 
+
+let num:number=100
+console.log(num)
+num='ram' [Type String cannot be assignable to type number.]
