@@ -11,3 +11,18 @@
 let num:number=100
 console.log(num)
 num='ram' [Type String cannot be assignable to type number.]
+
+# Data Types in Typescript:::
+Unknown =>Any,Null, Void, Undefined, 
+biglnt,number, string, boolean,Symbol, Object
+//Symbol
+Unique Symbol.
+//Number
+NumbErenum
+//String
+stringEnum
+//Object
+Array,Tuple
+function
+constructor
+Never
